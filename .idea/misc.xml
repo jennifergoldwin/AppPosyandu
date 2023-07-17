@@ -1,0 +1,56 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/background.xml" value="0.12129629629629629" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/bg_rounded_line.xml" value="0.12314814814814815" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/bg_rounded_rect.xml" value="0.12129629629629629" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/button.xml" value="0.12129629629629629" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/buttonsign.xml" value="0.12129629629629629" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/buttonwhite.xml" value="0.16666666666666666" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/round.xml" value="0.14814814814814814" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/toolbar_imunisasi.xml" value="0.12314814814814815" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/wave.xml" value="0.1537037037037037" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/wave_blue.xml" value="0.1537037037037037" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/drawable/white_box.xml" value="0.1" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_chart.xml" value="0.10666666666666667" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_dashboard_kader.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_dashboard_peserta.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_detail_imunisasi.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_forgot_password.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_hasil.xml" value="0.1539855072463768" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_input.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_kelola_daftar_peserta.xml" value="0.22" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_kelola_imunisasi.xml" value="0.22" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_kelola_jadwal_pelaksanaan.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_lihat_daftar_peserta.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_lihat_imunisasi.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_lihat_jadwal_pelaksanaan.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_login_kader.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_login_peserta.xml" value="0.16666666666666666" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_lupa_password.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/activity_tumbuh_kembang.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/daftar_imunisasi.xml" value="0.16666666666666666" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/daftar_jadwal.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/daftar_peserta.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/forgot_password.xml" value="0.3333333333333333" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/layout_edit_jadwal.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/layout_edit_peserta.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/progress_layout.xml" value="0.1796875" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/test.xml" value="0.16666666666666666" />
+        <entry key="..\:/Resti/AppPosyandu/app/src/main/res/layout/toolbar_imunisasi.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

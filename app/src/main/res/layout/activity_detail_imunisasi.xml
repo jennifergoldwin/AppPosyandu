@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailImunisasiActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:text="Riwayat Imunisasi"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textColor="#008cb5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Nama Anak"
+        android:layout_gravity="center"
+        android:id="@+id/detailNama"
+        android:textSize="18sp"
+        android:textColor="#008cb5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Tanggal Imunisasi"
+        android:layout_gravity="center"
+        android:id="@+id/detailTanggal"
+        android:textSize="18sp"
+        android:textColor="#008cb5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Jenis Imunisasi"
+        android:layout_gravity="center"
+        android:id="@+id/detailJenis"
+        android:textSize="18sp"
+        android:textColor="#008cb5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Imunisasi Ke"
+        android:layout_gravity="center"
+        android:id="@+id/detailUrutan"
+        android:textSize="18sp"
+        android:textColor="#008cb5"/>
+
+</LinearLayout>

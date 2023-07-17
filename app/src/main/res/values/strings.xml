@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppPosyandu</string>
+    <string-array name="filter">
+        <item>Semua</item>
+    </string-array>
+    <string-array name="tahun">
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+
+    </string-array>
+</resources>

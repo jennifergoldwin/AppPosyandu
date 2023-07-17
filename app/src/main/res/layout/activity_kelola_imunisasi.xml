@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:id="@+id/dialogImunisasi"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".kelola_imunisasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialogBoxImunisasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/kelolaImunisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="TAMBAH DATA IMUNISASI"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/namaImunisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:text="Nama Anak:"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/inputNamaImunisasi"
+            app:layout_constraintTop_toBottomOf="@id/kelolaImunisasi" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputNamaImunisasi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button"
+            android:inputType="textPersonName"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/tanggalImunisasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/namaImunisasi" />
+
+        <TextView
+            android:id="@+id/tanggalImunisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="Tanggal Imunisasi:"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/inputTanggalImunisasi"
+            app:layout_constraintTop_toBottomOf="@id/inputNamaImunisasi" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputTanggalImunisasi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button"
+            android:inputType="date"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/urutanImunisasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tanggalImunisasi" />
+
+        <TextView
+            android:id="@+id/urutanImunisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="Nama Anak dan Imunisasi ke:"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/inputUrutanImunisasi"
+            app:layout_constraintTop_toBottomOf="@id/inputTanggalImunisasi" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputUrutanImunisasi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button"
+            android:inputType="text"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/jenisImunisasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/urutanImunisasi" />
+
+        <TextView
+            android:id="@+id/jenisImunisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="Jenis Imunisasi:"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/inputJenisImunisasi"
+            app:layout_constraintTop_toBottomOf="@id/inputUrutanImunisasi" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputJenisImunisasi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button"
+            android:inputType="text"
+            android:textColor="#008cb5"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/jenisImunisasi" />
+
+        <Button
+            android:id="@+id/btnDashboardImunisasi"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/buttonsign"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/dialogBoxImunisasi"
+            app:layout_constraintEnd_toStartOf="@id/btnInputImunisasi"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inputJenisImunisasi"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnInputImunisasi"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/buttonsign"
+            android:text="Input"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/dialogBoxImunisasi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnDashboardImunisasi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

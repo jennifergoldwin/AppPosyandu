@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI TUMBUH KEMBANG ANAK"
+        android:textSize="22sp"
+        android:textColor="#008cb5"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="55dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logoposyandu"/>
+
+    <Button
+        android:id="@+id/btnHalamanLogin"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:text="MASUK"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnHalamanRegist"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="DAFTAR"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

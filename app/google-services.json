@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943446922820",
+    "firebase_url": "https://fir-crud-nama-peserta-default-rtdb.firebaseio.com",
+    "project_id": "fir-crud-nama-peserta",
+    "storage_bucket": "fir-crud-nama-peserta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943446922820:android:d699693856db7768b48e11",
+        "android_client_info": {
+          "package_name": "com.example.appposyandu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943446922820-o55245fhkq1ve10m0a2agdu8ti44i430.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcE9YUgUf7C34lFwVUSYcaS_gJd-j10dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943446922820-o55245fhkq1ve10m0a2agdu8ti44i430.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
